@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{208de552-bfd5-43b0-88f3-d97c12375fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{bb26996d-09b4-430a-a292-99d3423221a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{8aa7c970-eee1-4337-9bda-9a63d42fe9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enhance">
+      <UniqueIdentifier>{7fd9303f-f2ba-47b9-a2d4-4b61e3000ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dlg">
+      <UniqueIdentifier>{4756a70a-bea3-4b41-a529-2c715ce4373e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ImageGrab.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ImageGrab.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="D:\project\CARSHAPE\svn\ImageGrab\ImageGrab\res\ImageGrab.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageGrab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalParameter.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="JtvCfgData.h">
+      <Filter>config</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageBuff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFile.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraCtrl.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clah.h">
+      <Filter>enhance</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation.h">
+      <Filter>enhance</Filter>
+    </ClInclude>
+    <ClInclude Include="tl_enhance_distribution.h">
+      <Filter>enhance</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageDataMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSetDlg.h">
+      <Filter>dlg</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LineaCtrl.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RacerCtrl.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Mydialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Myserial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Myframe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mycamset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mylog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Myudp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageGrab.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalParameter.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="JtvCfgData.cpp">
+      <Filter>config</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageBuff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFile.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraCtrl.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clah.cpp">
+      <Filter>enhance</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation.cpp">
+      <Filter>enhance</Filter>
+    </ClCompile>
+    <ClCompile Include="tl_enhance_distribution.cpp">
+      <Filter>enhance</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageDataMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSetDlg.cpp">
+      <Filter>dlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LineaCtrl.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RacerCtrl.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Mydialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Myserial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Myframe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mycamset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mylog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Myudp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageGrab.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
